@@ -12,10 +12,10 @@
 
 /*SW*/
 #idSw.offline {
-    color: red !important;
+    color: red;
 }
 #idSw.online {
-    color: green !important;
+    color: green;
 }
 
 
