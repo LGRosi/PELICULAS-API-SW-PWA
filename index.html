@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="images/logoPelicula.png">
+    <title>Rosi Lucas Gonzalo | PWA</title>
+
+</head>
+<body class="imagenFondo">
+
+    <header class="container mb-5 pt-3 ">
+        <div class="row">
+            <nav class="col-12 navbar navbar-light navbarColor">
+                    <a class="navbar-brand text-white posicionLogo" href="#">
+                        <img src="images/logoPelicula.png" alt="" width="30" class="d-inline-block align-text-top">
+                        Pelis
+                    </a>
+                    <ul class="nav justify-content-end posicionUl">
+                        <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="porMirar.html">Por mirar</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="trailers.html">Trailers</a>
+                        </li>
+                    </ul>   
+            </nav>
+        </div>
+    </header>
+
+    <section class="container pt-md-5">
+        <div class="row">
+            <div class="col-12 col-md-6 m-auto pt-5">
+                <h1 class="text-center text-white" id="idSw">Tus series y peliculas favoritas</h1>
+                <p class="text-center text-white">La mejor y más entretenida colección</p>
+                <div class="input-group input-group-sm my-5 w-md-50 m-auto">
+                    <input id="inputPeliculas" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Buscá todas tus series y peliculas..." />
+                    <button type="button" class="btn btn-primary btnBuscar"><img class="mx-1 mb-1" src="images/search.svg" width="15" alt="Lupa de búsqueda">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="container mb-5">
+        <section class="row">
+            <div class="col-md-8 col-lg-6 m-auto">
+                <div class="catalogo"></div>
+            </div>  
+        </section>
+    </main>
+
+    <script src="js/register-sw.js"></script>
+    <script src="js/apiBuscarPeliculas.js"></script>
+    <script src="js/main.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

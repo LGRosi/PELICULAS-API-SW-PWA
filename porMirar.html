@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" href="images/logoPelicula.png">
+        <title>Rosi Lucas Gonzalo | PWA</title>
+        
+    </head>
+    <body class="imagenFondo">
+
+        <header class="container mb-md-5 pt-md-3">
+            <div class="row">
+                <nav class="col-12 navbar navbar-light">
+                        <a class="navbar-brand text-white posicionLogo" href="index.html">
+                            <img src="images/logoPelicula.png" alt="" width="30" class="d-inline-block align-text-top">
+                            Pelis
+                        </a>
+                        <ul class="nav justify-content-end posicionUl">
+                            <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Por mirar</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-white" href="trailers.html">Trailers</a>
+                            </li>
+                        </ul>   
+                </nav>
+            </div>
+        </header>
+
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 m-auto pt-5">
+                    <h1 class="text-center text-white">Tu selección</h1>
+                </div>
+            </div>
+        </section>
+
+
+
+        <main class="container mb-5">
+            <section class="row">
+                <div class="col-md-8 col-lg-6 m-auto">
+                    <div class="catalogoTuSeleccion"></div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+        
+
+        <script src="js/datosDelLocalStorage.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
