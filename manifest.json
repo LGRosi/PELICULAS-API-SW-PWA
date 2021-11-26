@@ -1,10 +1,10 @@
 {
-  "name": "Pelis ",
+  "name": "PelisPWA",
   "short_name": "Pelis",
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "",
   "scope": "/",
   "start_url": "/",
   "icons": [
