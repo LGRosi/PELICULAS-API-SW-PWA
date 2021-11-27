@@ -69,3 +69,9 @@
         margin: auto;
     }
 }
+
+
+.container.spinner {
+    text-align: center;
+    margin-top: 100px;
+}

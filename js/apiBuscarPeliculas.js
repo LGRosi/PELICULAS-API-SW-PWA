@@ -19,8 +19,11 @@ const inputPeliculas = document.getElementById('inputPeliculas');
 
 const estructuraDeLaPublicacion = document.querySelector('.catalogo');
 
+const spinner = document.getElementById('spinner');
+
 btnBuscar.addEventListener('click', () => {
     buscarEnLaApi(inputPeliculas.value);
+    showSpinner();
 });
 
 
@@ -59,6 +62,7 @@ function obtenerValores (data) {
             </div>
         </div>`;
 
+        showSpinner();
 }
 
 
@@ -69,3 +73,7 @@ function guardarResultados (data) {
     });
 }
 
+
+function showSpinner() {
+    spinner.classList.toggle('d-none');
+}
