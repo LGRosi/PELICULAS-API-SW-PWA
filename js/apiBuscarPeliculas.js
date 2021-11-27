@@ -26,7 +26,7 @@ btnBuscar.addEventListener('click', () => {
 
 function buscarEnLaApi (buscarValor) {
 
-    fetch(`http://www.omdbapi.com/?t=${buscarValor}&apikey=6cba305d`)
+    fetch(`https://www.omdbapi.com/?t=${buscarValor}&apikey=6cba305d`)
     .then(response => {
         console.log(response);
         return response.json();
