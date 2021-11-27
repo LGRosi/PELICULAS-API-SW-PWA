@@ -10,14 +10,6 @@
     height: 100%;
 }
 
-/*SW*/
-#idSw.offline {
-    color: red;
-}
-#idSw.online {
-    color: green;
-}
-
 
 .contenedorPeli {
     background: #f7f7f7;

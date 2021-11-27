@@ -1,11 +1,13 @@
 window.addEventListener('offline', (event) => {
     console.log('Estoy offline!');
-    document.querySelector('#idSw').classList.add('offline');
+    document.querySelector('.spinnerOffline').classList.remove('d-none');
+    document.querySelector('.spinnerOnline').classList.add('d-none');
 });
 
 window.addEventListener('online', (event) => {
 console.log('Estoy online! Puedo navegar!');
-document.querySelector('#idSw').classList.add('online');
+document.querySelector('.spinnerOnline').classList.remove('d-none');
+document.querySelector('.spinnerOffline').classList.add('d-none');
 });
 
 if (!navigator.onLine) {
